@@ -70,3 +70,69 @@ header {
 #result {
   visibility: hidden;
 }
+
+@media screen and (max-width:780px) {
+  #ask {
+    font-size: 30px;
+    display: block;
+  }
+  
+  #user-input {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 400px;
+    font-size: 20px;
+  }
+  
+  #user-input:focus {
+    outline: none;
+  }
+  
+  #btn-send {
+    border-radius: 0;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width:520px) {
+  #ask {
+    font-size: 20px;
+    display: block;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+  }
+  
+  
+  #user-input {
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 220px;
+    font-size: 20px;
+  }
+  
+  #user-input:focus {
+    outline: none;
+  }
+  
+  #btn-send {
+    border-radius: 0;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+  }
+}
