@@ -28,7 +28,7 @@ btn.addEventListener('click', function() {
     resultText.textContent = "Acertou, parabéns!";
     randomNum = randomNumber(10);
   } 
-  else if(randomNum.toString() < input.value) {
+  else if(randomNum < Number(input.value)) {
     resultText.textContent = "É menor!";
     tentativas++;
   }
